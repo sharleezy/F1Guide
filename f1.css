@@ -1,0 +1,251 @@
+
+header {
+    text-align: center;
+    background-image: url(headerimage.jpg);
+    background-repeat: repeat-x;
+    line-height: 1000%;
+    text-indent: 1em;
+    margin-bottom: 0;
+}
+h1 {
+    margin-bottom: 0;
+    margin-top: 0;
+}
+#f1img {
+    padding-left: 22em;
+}
+video {
+    width: 50%;
+    height: auto;
+}
+h2 {
+    text-align: center;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: x-large;
+}
+h3 {
+    text-align: center;
+    color:#AA121D;
+    font-family: Georgia, "Times New Roman", serif;
+}
+h4 {
+    text-align: center;
+    color: #AA121D
+}
+header a {
+    text-decoration: none;
+    color:#FFFFFF;
+}
+body {
+    background-color: #EDE6E3;
+}
+.topnav img {
+    float: right;
+    padding-top: 10px;
+}
+.topnav {
+    overflow: hidden;
+    background-color: #AA121D;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: x-large;
+}
+  
+.topnav a {
+    float: right;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+  
+.topnav a:hover {
+    background-color: #36382E;
+}
+.noTabs {
+    padding: 1px 20px 90px 20px;
+    display: block;
+}
+.withTabs {
+    overflow: auto;
+}
+.sidenav {
+    display: flex;
+    flex-flow: column;
+    height: 100%;
+    width: 200px;
+    margin-top: 0;
+    background-color: #AA121D;
+    overflow-x: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: x-large;
+  }
+.fa-caret-down {
+    float: right;
+    padding-top: 2px;
+    padding-left: 20px;
+}
+.dropdown-btn {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    display: block;
+    border: none;
+    background: none;
+    width: 100%;
+    text-align: left;
+    cursor: pointer;
+    outline: none;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: right;
+    padding: 10px;
+    text-decoration: none;
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: x-large;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+.dropdown-btn:hover {
+    background-color: #36382E;
+}
+.sidenav a {
+    text-align: right;
+    padding: 10px;
+    text-decoration: none;
+    color: #FFFFFF;
+    display: block;
+}
+.sidenav a:hover {
+    color: #36382E;
+}
+.dropdown-container {
+    display: none;
+    background-color: #ba6369;
+    padding-left: 8px;
+}
+.fa-caret-down {
+    float: right;
+    padding-right: 8px;
+}
+p {
+    font-family: Georgia, "Times New Roman", serif;
+    text-align: center;
+}
+#key {
+    text-align: left;
+}
+table {
+    font-family: Georgia;
+    width: 75%;
+    margin: auto;
+    border-collapse: collapse;
+    border-radius: 1em;
+    overflow: hidden;
+}
+#circuits {
+    margin-top: 2em;
+    margin-bottom: 5em;
+}
+#circuits td:nth-child(even) {
+    background-color: #EDE6E3;
+}
+th, td {
+    padding: 5px;
+    background-color: #FFFFFF;
+    border-bottom: 2px solid #5BC3EB;
+}
+section p {
+    padding: 2em;
+}
+.main img {
+    margin-left: 30%;
+}
+b {
+    color: #AA121D;
+}
+th {
+    text-align: left;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap; 
+    margin: auto;
+}
+input {
+    margin-top: 10px;
+    display: block;
+    width: 350px;
+}
+label {
+    margin-top: 10px;
+}
+th[colspan="2"] {
+    text-align: center;
+}
+footer {
+    display: flex;
+    background-color: #36382e;
+    color: white;
+    padding: 2em;
+    font-family: Georgia, "Times New Roman", serif;
+}
+footer a {
+    color: white;
+}
+#map {
+    height: 400px;
+    width: 100%;
+  }
+aside {
+    padding: 1em;
+    margin-left: auto;
+    margin-right: auto;
+}
+iframe {
+    align-content: center;
+}
+#wrapper {
+    width: 90%;
+    background-color: #5BC3EB;
+    background-image: linear-gradient(to bottom, #FFFFFF, #5BC3EB);
+    min-width: 960px;
+    max-width: 2048px;
+    box-shadow: 3px 3px 0 #36382E;
+    margin-left: 3%;
+}
+header {
+    grid-area: header;
+}
+.topnav {
+    grid-area: topnav;
+}
+.sidenav {
+    grid-area: sidenav;
+}
+.main {
+    grid-area: main;
+}
+footer {
+    grid-area: footer;
+}
+
+#wrapperteam {
+    width: 90%;
+    background-color: #5BC3EB;
+    background-image: linear-gradient(to bottom, #FFFFFF, #5BC3EB);
+    box-shadow: 3px 3px 0 #36382E;
+    margin-left: 3%;
+    
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto auto auto;
+    grid-template-areas: 
+        "header header"
+        "topnav topnav"
+        "sidenav main"
+        "footer footer";
+}
+
+

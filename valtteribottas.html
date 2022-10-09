@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="f1.css">
+        <title>Valtteri Bottas</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <meta name="description" content="Valtteri Bottas">
+    </head>
+    <body>
+        <div id="wrapperteam">
+            <header>
+                <h1>
+                    <a href="index.html">Sharliz's Gen Z Formula 1 Guide</a>
+                </h1>
+            </header>
+            <div class="topnav">
+                
+                <a href="learn.html">Learn</a>
+                <a href="circuits.html">Circuits</a>
+                <a href="drivers.html">Drivers</a>
+                <a href="teams.html">Teams</a>
+                <a href="about.html">About F1</a>
+                <a href="index.html">Home</a>
+                <img src="f1logo.png" alt="Formula 1 logo">
+            
+            </div>
+            <div class="sidenav">
+                <button class="dropdown-btn">Alfa Romeo<i class="fa fa-caret-down"></i></button>
+                <div class="dropdown-container">
+                    <a href="valtteribottas.html">Valtteri Bottas</a>
+                    <a href="zhouguanyu.html">Zhou Guanyu</a>
+                </div>
+                <button class="dropdown-btn">AlphaTauri<i class="fa fa-caret-down"></i></button>
+                <div class="dropdown-container">
+                    <a href="pierregasly.html">Pierre Gasly</a>
+                    <a href="yukitsunoda.html">Yuki Tsunoda</a>
+                </div>
+                <button class="dropdown-btn">Alpine<i class="fa fa-caret-down"></i></button>
+                <div class="dropdown-container">
+                    <a href="fernandoalonso.html">Fernando Alonso</a>
+                    <a href="estebanocon.html">Esteban Ocon</a>
+                </div>
+                <button class="dropdown-btn">Aston Martin<i class="fa fa-caret-down"></i></button>
+                <div class="dropdown-container">
+                    <a href="lancestroll.html">Lance Stroll</a>
+                    <a href="sebastianvettel.html">Sebastian Vettel</a>
+                </div>
+                <button class="dropdown-btn">Ferrari<i class="fa fa-caret-down"></i></button>
+                <div class="dropdown-container">
+                    <a href="Charlesleclerc.html">Charles Leclerc</a>
+                    <a href="carlossainz.html">Carlos Sainz</a>
+                </div>
+                <button class="dropdown-btn">Haas<i class="fa fa-caret-down"></i></button>
+                <div class="dropdown-container">
+                    <a href="Kevinmagnussen.html">Kevin Magnussen</a>
+                    <a href="mickschumacher.html">Mick Schumacher</a>
+                </div>
+                <button class="dropdown-btn">McLaren<i class="fa fa-caret-down"></i></button>
+                <div class="dropdown-container">
+                    <a href="landonorris.html">Lando Norris</a>
+                    <a href="danielricciardo.html">Daniel Ricciardo</a>
+                </div>
+                <button class="dropdown-btn">Mercedes<i class="fa fa-caret-down"></i></button>
+                <div class="dropdown-container">
+                    <a href="lewishamilton.html">Lewis Hamilton</a>
+                    <a href="georgerussell.html">George Russell</a>
+                </div>
+                <button class="dropdown-btn">Red Bull<i class="fa fa-caret-down"></i></button>
+                <div class="dropdown-container">
+                    <a href="Sergioperez.html">Sergio Perez</a>
+                    <a href="maxverstappen.html">Max Verstappen</a>
+                </div>
+                <button class="dropdown-btn">Williams<i class="fa fa-caret-down"></i></button>
+                <div class="dropdown-container">
+                    <a href="Alexalbon.html">Alex Albon</a>
+                    <a href="nicholaslatifi.html">Nicholas Latifi</a>
+                </div>
+            </div>
+            <script>
+                /* Loop through all dropdown buttons to toggle between hiding and showing its dropdown content - This allows the user to have multiple dropdowns without any conflict */
+                var dropdown = document.getElementsByClassName("dropdown-btn");
+                var i;
+                
+                for (i = 0; i < dropdown.length; i++) {
+                  dropdown[i].addEventListener("click", function() {
+                    this.classList.toggle("active");
+                    var dropdownContent = this.nextElementSibling;
+                    if (dropdownContent.style.display === "block") {
+                      dropdownContent.style.display = "none";
+                    } else {
+                      dropdownContent.style.display = "block";
+                    }
+                  });
+                }
+                </script>
+            <div class="main">
+                <h2>Valtteri Bottas #77</h2>
+                        <p>
+                            Valtteri is 33 year old Finnish driver who currently drives for Alfa Romeo. He used to drive for Williams from 2013-2016, and he used to be a Mercedes driver from 2017-2021 meaning he was teammates with 7x World Champion Lewis Hamilton.
+                            Valtteri is a very talented driver who has great skill and performance, but we all felt bad for him because he was always in Lewis's shadow and never got his shot at winning a title :(
+                            Him and Hamilton complimented each other perfectly, but we all still wanted a chance for him. He has 10 race wins and 67 podium finishes. All of his wins being with Mercedes, so you know how talented of a driver he was alongside Lewis.
+                           <br>But now in the 2022 season, he has moved to team Alfa Romeo and is living his best life now. He is a great teammate and mentor
+                            to 2022 rookie Zhou Guanyu. If you hear people call him Valtteri "BUTTass," it is because he likes to post him bare bum on social media when he is on vacation.
+                        </p>
+                        <img src="valtteribottas.jpeg"  alt="Valtteri Bottas" height="200px" width="300px">
+                    </section>
+                </div>
+            
+            </div>
+            
+            <footer>
+                Copyright &copy; Sharliz R &nbsp;
+                <a href="mailto:sharliz@reyes.com">sharliz@reyes.com</a>
+            </footer>
+        </div>
+    </body>
+</html>

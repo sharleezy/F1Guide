@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="f1.css">
+        <title>2022 Drivers</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <meta name="description" content="Learn about the 20 F1 Drivers">
+    </head>
+    <body>
+        <div id="wrapperteam">
+            <header>
+                <h1>
+                    <a href="index.html">Sharliz's Gen Z Formula 1 Guide</a>
+                </h1>
+            </header>
+            <div class="topnav">
+                
+                <a href="learn.html">Learn</a>
+                <a href="circuits.html">Circuits</a>
+                <a href="drivers.html">Drivers</a>
+                <a href="teams.html">Teams</a>
+                <a href="about.html">About F1</a>
+                <a href="index.html">Home</a>
+                <img src="f1logo.png" alt="Formula 1 logo">
+            
+            </div>
+            <div class="sidenav">
+                <button class="dropdown-btn">Alfa Romeo<i class="fa fa-caret-down"></i></button>
+                <div class="dropdown-container">
+                    <a href="valtteribottas.html">Valtteri Bottas</a>
+                    <a href="zhouguanyu.html">Zhou Guanyu</a>
+                </div>
+                <button class="dropdown-btn">AlphaTauri<i class="fa fa-caret-down"></i></button>
+                <div class="dropdown-container">
+                    <a href="pierregasly.html">Pierre Gasly</a>
+                    <a href="yukitsunoda.html">Yuki Tsunoda</a>
+                </div>
+                <button class="dropdown-btn">Alpine<i class="fa fa-caret-down"></i></button>
+                <div class="dropdown-container">
+                    <a href="fernandoalonso.html">Fernando Alonso</a>
+                    <a href="estebanocon.html">Esteban Ocon</a>
+                </div>
+                <button class="dropdown-btn">Aston Martin<i class="fa fa-caret-down"></i></button>
+                <div class="dropdown-container">
+                    <a href="lancestroll.html">Lance Stroll</a>
+                    <a href="sebastianvettel.html">Sebastian Vettel</a>
+                </div>
+                <button class="dropdown-btn">Ferrari<i class="fa fa-caret-down"></i></button>
+                <div class="dropdown-container">
+                    <a href="Charlesleclerc.html">Charles Leclerc</a>
+                    <a href="carlossainz.html">Carlos Sainz</a>
+                </div>
+                <button class="dropdown-btn">Haas<i class="fa fa-caret-down"></i></button>
+                <div class="dropdown-container">
+                    <a href="Kevinmagnussen.html">Kevin Magnussen</a>
+                    <a href="mickschumacher.html">Mick Schumacher</a>
+                </div>
+                <button class="dropdown-btn">McLaren<i class="fa fa-caret-down"></i></button>
+                <div class="dropdown-container">
+                    <a href="landonorris.html">Lando Norris</a>
+                    <a href="danielricciardo.html">Daniel Ricciardo</a>
+                </div>
+                <button class="dropdown-btn">Mercedes<i class="fa fa-caret-down"></i></button>
+                <div class="dropdown-container">
+                    <a href="lewishamilton.html">Lewis Hamilton</a>
+                    <a href="georgerussell.html">George Russell</a>
+                </div>
+                <button class="dropdown-btn">Red Bull<i class="fa fa-caret-down"></i></button>
+                <div class="dropdown-container">
+                    <a href="Sergioperez.html">Sergio Perez</a>
+                    <a href="maxverstappen.html">Max Verstappen</a>
+                </div>
+                <button class="dropdown-btn">Williams<i class="fa fa-caret-down"></i></button>
+                <div class="dropdown-container">
+                    <a href="Alexalbon.html">Alex Albon</a>
+                    <a href="nicholaslatifi.html">Nicholas Latifi</a>
+                </div>
+            </div>
+            <script>
+                /* Loop through all dropdown buttons to toggle between hiding and showing its dropdown content - This allows the user to have multiple dropdowns without any conflict */
+                var dropdown = document.getElementsByClassName("dropdown-btn");
+                var i;
+                
+                for (i = 0; i < dropdown.length; i++) {
+                  dropdown[i].addEventListener("click", function() {
+                    this.classList.toggle("active");
+                    var dropdownContent = this.nextElementSibling;
+                    if (dropdownContent.style.display === "block") {
+                      dropdownContent.style.display = "none";
+                    } else {
+                      dropdownContent.style.display = "block";
+                    }
+                  });
+                }
+                </script>
+            <div class="main">
+                <h2>2022 Drivers</h2>
+
+                <h3>Learn about each of the 20 Formula One drivers of the 2022 season!</h3>
+
+                <p>
+                    Since there are 10 teams in Formula 1 and each team has 2 drivers, there are a total of 20 drivers on the grid.
+                    That means being an F1 driver is a BIG deal. Only 20 people in the world are chosen to be in the most elite driving league in the world, 
+                    so that is something to think about when getting to know these drivers.
+                </p>
+                <p>
+                    Even though drivers are teammates and work together to earn points for their teams, the drivers also are competitive within themselves
+                    to get the most points and improve their position in the drivers standings.
+                </p>
+                <p>
+                    Many of them come into F1 because of their talents, and they have been go karting and racing all their lives. They can start out in F1's feeder teams
+                    and move up through F3, F2, etc. to get to F1. Some drivers can also pay their way into F1. Many drivers hope to become World Champion one day, or at least a Grand Prix winner, but 
+                    with the competition and power of the top teams in the way, many drivers find it difficult to achieve such things.
+                </p>
+
+                <h4>
+                    Now click the tabs on the left to find out more about each of the individual drivers!
+                </h4>
+                
+            </div>
+            <footer>
+                Copyright &copy; Sharliz R &nbsp;
+                <a href="mailto:sharliz@reyes.com">sharliz@reyes.com</a>
+            </footer>
+        </div>
+    </body>
+</html>
